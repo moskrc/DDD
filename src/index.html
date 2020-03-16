@@ -4,11 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
+  <title>fsr Russia</title>
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 <body>
-  <div class="root"></div>
+  <div class="root">
+    <header class="header">
+      <img src="<%=require('./images/logo.svg')%>" alt="fsr logo" class="logo">
+      <div class="header__square-pic"></div>
+      <div class="header__main-illustration"></div>
+      <nav class="menu header__menu">
+      </nav>
+    </header>
+    <section class="mainScreen">
+      <nav class="nav">
+
+      </nav>
+    </section>
+
+  </div>
   <script src='<%= htmlWebpackPlugin.files.chunks.main.entry %>'> </script>
 </body>
 </html>

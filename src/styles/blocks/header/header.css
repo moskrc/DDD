@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__square-pic {
+    background-color: #DF1919;
+    max-height: 100vh;
+    width: 50%;
+    position: relative;
+}
