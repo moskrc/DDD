@@ -1,5 +1,9 @@
 .menu {
     background-color: #DF1919;
-    min-height: 100vh;
+    /*height: 100vh;*/
     width: 136px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }

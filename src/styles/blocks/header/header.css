@@ -2,11 +2,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    min-height: 100vh;
 }
 
 .header__square-pic {
     background-color: #DF1919;
-    max-height: 100vh;
+    height: 100vh;
     width: 50%;
-    position: relative;
+    position: absolute;
+    left: 0;
+}
+
+.mainScreen {
+    height: 500px;
+    background-color: green;
 }
