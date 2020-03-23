@@ -3,7 +3,16 @@
 @import url('blocks/header/header.css');
 @import url('blocks/logo/logo.css');
 @import url('blocks/menu/menu.css');
+@import url('blocks/about/about.css');
 
 body {
   background-color: #fff;
 }
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/** {*/
+  /*border: 1px solid black;*/
+/*}*/

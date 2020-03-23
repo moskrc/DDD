@@ -10,15 +10,16 @@
 <body>
   <div class="root">
     <header class="header">
-      <img src="<%=require('./images/logo.svg')%>" alt="fsr logo" class="logo">
-      <div class="header__square-pic"></div>
-      <div class="header__main-illustration"></div>
-      <nav class="menu header__menu">
-      </nav>
+      <div class="wrapper">
+        <div class="header__square-pic"></div>
+        <img src="<%=require('./images/logo.svg')%>" alt="DDD logo" class="logo">
+        <h1 class="header__title">DREAM DЕСИЖН DISPLAY</h1>
+        <nav class="menu header__menu">
+        </nav>
+      </div>
     </header>
-    <section class="mainScreen">
+    <section class="about">
     </section>
-
   </div>
   <script src='<%= htmlWebpackPlugin.files.chunks.main.entry %>'> </script>
 </body>

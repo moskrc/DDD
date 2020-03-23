@@ -8,12 +8,23 @@
 .header__square-pic {
     background-color: #DF1919;
     height: 100vh;
-    width: 50%;
+    width: 60%;
     position: absolute;
     left: 0;
 }
 
-.mainScreen {
+.header__title {
+    color: #fff;
+    font-size: 8rem;
+    z-index: 1;
+    max-width: 40%;
+    position: absolute;
+    top: 0px;
+    padding-top:120px;
+}
+
+
+.about {
     height: 500px;
     background-color: green;
 }
