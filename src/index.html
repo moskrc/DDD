@@ -4,11 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
+  <title>DDD</title>
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 <body>
-  <div class="root"></div>
+  <div class="root">
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__square-pic"></div>
+        <img src="<%=require('./images/logo.svg')%>" alt="DDD logo" class="logo">
+        <h1 class="header__title">DREAM DЕСИЖН DISPLAY</h1>
+        <nav class="menu header__menu">
+        </nav>
+      </div>
+    </header>
+    <section class="about">
+    </section>
+  </div>
   <script src='<%= htmlWebpackPlugin.files.chunks.main.entry %>'> </script>
 </body>
 </html>
