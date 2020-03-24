@@ -4,6 +4,8 @@
 @import url('blocks/logo/logo.css');
 @import url('blocks/menu/menu.css');
 @import url('blocks/about/about.css');
+@import url('blocks/services/services.css');
+@import url('blocks/button/button.css');
 
 body {
   background-color: #fff;
@@ -11,7 +13,11 @@ body {
 .wrapper {
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
+
+
 
 /** {*/
   /*border: 1px solid black;*/

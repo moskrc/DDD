@@ -8,6 +8,6 @@ const headerSquarePic = document.querySelector('.header__square-pic');
 
 document.addEventListener('scroll', function () {
     console.log(window.pageXOffset);
-    headerSquarePic.style.left = -window.pageYOffset+"px";
+    headerSquarePic.style.left = -window.pageYOffset*2+"px";
 })
 

@@ -1,0 +1,51 @@
+.services {
+    min-height: 600px;
+}
+
+.services__title {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.services__wrapper {
+    position: relative;
+}
+.services__wrapper-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    margin-right: 100px;
+    margin-bottom: 9rem;
+}
+
+.services__card {
+    max-width: 15rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.services__card_icon {
+ max-width: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.services__card_title {
+    margin-bottom: 1rem;
+    color: #DF1919;
+    font-size: 1.5rem;
+}
+
+.services__card_descript {
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.decor {
+    max-height: 5rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

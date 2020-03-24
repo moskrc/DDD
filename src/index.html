@@ -9,16 +9,49 @@
 </head>
 <body>
   <div class="root">
+    <nav class="menu header__menu">
+    </nav>
     <header class="header">
       <div class="wrapper">
         <div class="header__square-pic"></div>
         <img src="<%=require('./images/logo.svg')%>" alt="DDD logo" class="logo">
-        <h1 class="header__title">DREAM DЕСИЖН DISPLAY</h1>
-        <nav class="menu header__menu">
-        </nav>
+        <h1 class="header__title">DREAM DЕСИЖН DEVELOP</h1>
+
       </div>
     </header>
     <section class="about">
+      <h2 class="section__title about__title">
+        кто мы
+      </h2>
+      <p class="about__descript">
+        DDD - продуктовая IT-компания. Мы создаём впечатляющие цифровые вещи используя новые технологии и творческий подход.
+      </p>
+    </section>
+    <section class="services">
+      <div class="wrapper services__wrapper">
+        <h2 class="section__title services__title">
+          Чем мы поможем
+        </h2>
+        <div class="services__wrapper-card">
+          <div class="services__card">
+            <img src="<%=require('./images/icon.svg')%>" alt="" class="services__card_icon">
+            <div class="services__card_title">Сделаем сайт</div>
+            <div class="services__card_descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, saepe</div>
+          </div>
+          <div class="services__card">
+            <img src="<%=require('./images/icon.svg')%>" alt="" class="services__card_icon">
+            <div class="services__card_title">... или приложение</div>
+            <div class="services__card_descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, saepe</div>
+          </div>
+          <div class="services__card">
+            <img src="<%=require('./images/icon.svg')%>" alt="" class="services__card_icon">
+            <div class="services__card_title">Сделаем сайт</div>
+            <div class="services__card_descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, saepe</div>
+          </div>
+      </div>
+        <a href="#" class="btn btn-center">Смотреть наши работы</a>
+        <img src="<%=require('./images/arrow.svg')%>" alt="decor-arrow" class="decor">
+      </div>
     </section>
   </div>
   <script src='<%= htmlWebpackPlugin.files.chunks.main.entry %>'> </script>
